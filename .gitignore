@@ -1,0 +1,317 @@
+# ============================================================
+# Python
+# ============================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.env.local
+.env.*.local
+.venv
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# ============================================================
+# IDEs and Editors
+# ============================================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================
+# Operating System
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+
+# ============================================================
+# Project Specific
+# ============================================================
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# API keys and secrets (CRITICAL - NEVER COMMIT!)
+.env
+.env.local
+.env.production
+.env.*.local
+secrets.json
+api_keys.txt
+
+# Test outputs
+test_results/
+test_output/
+*.test.json
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Documentation builds
+docs/_build/
+docs/.doctrees/
+
+# Cache directories
+.cache/
+__pycache__/
+.pytest_cache/
+
+# ============================================================
+# Frontend (React/Node.js)
+# ============================================================
+
+# Dependencies
+dashboard/node_modules/
+dashboard/package-lock.json
+dashboard/yarn.lock
+
+# Production build
+dashboard/build/
+dashboard/dist/
+
+# Environment variables
+dashboard/.env
+dashboard/.env.local
+dashboard/.env.production
+
+# Logs
+dashboard/npm-debug.log*
+dashboard/yarn-debug.log*
+dashboard/yarn-error.log*
+
+# IDE
+dashboard/.idea/
+dashboard/.vscode/
+
+# Testing
+dashboard/coverage/
+
+# Misc
+dashboard/.DS_Store
+
+# ============================================================
+# Deployment
+# ============================================================
+
+# Railway
+.railway/
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+.docker/
+
+# Kubernetes
+k8s/
+*.yaml
+
+# ============================================================
+# Backup and Personal Files
+# ============================================================
+
+# Personal notes
+notes.txt
+TODO.md
+SCRATCH.md
+personal/
+
+# Backup files
+*.backup
+*.old
+*.orig
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# ============================================================
+# Security
+# ============================================================
+
+# Never commit these!
+*.pem
+*.key
+*.cert
+*.crt
+private_key*
+public_key*
+*.p12
+*.pfx
+
+# ============================================================
+# Misc
+# ============================================================
+
+# System files
+*.pid
+*.seed
+*.pid.lock
+
+# Debug files
+debug/
+*.debug
+
+# Profiling
+*.prof
+*.lprof

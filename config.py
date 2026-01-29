@@ -259,7 +259,7 @@ class Settings:
             str: Model identifier string
         """
         if self.AI_PROVIDER == "gemini":
-            return "gemini-1.5-flash"  # Fast and free
+            return "gemini-flash-latest"  # Fast and free
         elif self.AI_PROVIDER == "groq":
             return "llama3-70b-8192"  # Groq's Llama 3 70B model
         else:
